@@ -1,0 +1,66 @@
+body{
+	color: #222222;
+	background-color: #f5f5f5;
+	font-family: Arial, sans-serif;
+}
+h1{
+	font-family: Verdana, sans-serif;
+}
+
+ul.navbar {
+	list-style: none;/*移除列表預設點*/
+	padding: 0;
+	margin: 0;
+	display: flex;
+	background-color: #2c3e50;
+}
+
+ul.navbar li {
+	position: relative;
+	padding: 14px/*上下*/ 20px/*左右*/;
+	color: white;
+	font-weight: bold;
+}
+
+ul.navbar li:hover{
+	background-color: #1a252f;
+}
+ul.navbar li a{
+	text-decoration: none;
+	color: white;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #2c3e50;
+	min-width: 180px;
+	top: 100%;/*選單在主按鈕下方*/
+	left: 0;/*水平對齊左邊*/
+	border-radius: 6px;/*角落圓滑*/
+}
+.dropdown-contect a{
+	display: block;
+	padding: 12px 16px;
+	color: white;
+	text-decoration:none;
+}
+
+.dropdown-content a:hover{
+	background-color: #1a252f;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+@media all {
+    body {
+        border: 3px solid black;
+    }
+}
+
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
