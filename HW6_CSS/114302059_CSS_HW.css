@@ -1,0 +1,196 @@
+/* MAIN CONTAINER */
+.main-container {
+  width: 900px;
+  background-color: #fafafa;
+  display: flex;
+  border-radius: 18px;
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.15);
+  overflow: hidden;
+  margin: 40px auto;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+/* LEFT PANEL*/
+.left-panel {
+  width: 32%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-right: 1px solid #e5e5e5;
+}
+
+/* Profile Photo */
+.photo-panel img {
+  width: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Left Panel Titles */
+.text-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-left: 4px solid #7ba7f0;
+  padding-left: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* About Me paragraph */
+.about-me p {
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 18px;
+}
+
+/* Contact Info */
+.contact-info ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+/* School Logo */
+.school-logo img {
+  width: 70%;
+  display: block;
+  margin: 30px auto 0;
+  opacity: 0.85;
+}
+
+
+
+/* RIGHT PANEL*/
+.right-panel {
+  width: 68%;
+  padding: 30px 40px;
+  background-color: #fdfdfd;
+}
+
+/* SECTION (共用區塊) */
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #7aa2e3;
+  font-weight: 600;
+  color: #333;
+}
+
+
+
+/* EDUCATION */
+.edu-item {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.year {
+  font-weight: 600;
+  color: #5679c0;
+  width: 120px;
+}
+
+.desc {
+  color: #555;
+}
+
+
+
+/* HOBBIES */
+.hobby-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hobby {
+  background-color: #eef3ff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #4462a9;
+}
+
+
+
+/*HOMEWORK & LAB*/
+.hw-lab-container {
+  display: flex;
+  gap: 20px;
+}
+
+.hw-column,
+.lab-column {
+  flex: 1;
+  background-color: #f5f7ff;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.hw-column h3,
+.lab-column h3 {
+  margin-bottom: 10px;
+  color: #3a4f7a;
+}
+
+.hw-column ul,
+.lab-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hw-column a,
+.lab-column a {
+  text-decoration: none;
+  color: #2e5cb8;
+  transition: 0.2s;
+}
+
+.hw-column a:hover,
+.lab-column a:hover {
+  color: #143f91;
+}
+
+
+
+/*FAVORITE MUSIC*/
+.music-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.music-item {
+  width: 22%;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.music-item img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.song-title {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.music-note {
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.4;
+}
