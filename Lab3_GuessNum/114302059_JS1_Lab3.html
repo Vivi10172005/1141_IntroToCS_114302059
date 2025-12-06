@@ -6,7 +6,7 @@
 </head>
 <body>
   <!-- 將 StudentID_Number 換成你的學號 -->
-  <h1>StudentID_Number Guessing Game</h1>
+  <h1>114302059_Number Guessing Game</h1>
 
   <!-- 空的 div：遊戲結束後插入 correct.jpg 或 wrong.jpg -->
   <div id="resultArea"></div>
@@ -42,7 +42,7 @@
         // 去掉前後空白
         input = input.trim();
 
-        // 空值或非數字 → 提醒並重新輸入，不扣次數
+        // 空值或非數字，提醒並重新輸入，不扣次數
         if (input === "" || isNaN(input)) {
           alert('輸入錯誤：請輸入有效的數字。該次輸入不會扣除嘗試次數。');
           continue; // 跳回 while 開頭
@@ -51,14 +51,14 @@
         // 轉成數字
         var guess = Number(input);
 
-        // 超出有效範圍 → 提醒並重新輸入，不扣次數
+        // 超出有效範圍，提醒並重新輸入，不扣次數
         if (guess < min || guess > max) {
           alert('輸入錯誤：請輸入介於 ' + min + ' 到 ' + max + ' 的數字。該次輸入不會扣除嘗試次數。');
           continue;
         }
 
         // 有效猜測，扣一次
-        chances--;
+        chances--;ㄨ
 
         // 如果猜中
         if (guess === answer) {
